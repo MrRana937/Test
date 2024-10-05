@@ -17,7 +17,7 @@ const TicTac: React.FC = () => {
         if (rIdx === rowIndex && cIdx === cellIndex) {
           return prevMove // Set the current move ("X" or "O")
         }
-        return cell // Keep other cells unchanged
+        return cell 
       })
     )
 
