@@ -36,3 +36,25 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+.board {
+  width: fit-content;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  border: 1px solid red;
+}
+
+.row {
+  display: contents; /* Makes child elements (cells) part of the grid layout */
+}
+
+.cell {
+  width: 100px; /* Set width of each cell */
+  height: 100px; /* Set height of each cell */
+  border: 1px solid black; /* Border for the cells */
+  display: flex; /* Center content */
+  align-items: center; /* Center vertically */
+  justify-content: center; /* Center horizontally */
+}
