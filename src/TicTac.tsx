@@ -15,7 +15,7 @@ const TicTac: React.FC = () => {
     const newData = data.map((row, rIdx) =>
       row.map((cell, cIdx) => {
         if (rIdx === rowIndex && cIdx === cellIndex) {
-          return prevMove // Set the current move ("X" or "O")
+          return prevMove 
         }
         return cell 
       })
