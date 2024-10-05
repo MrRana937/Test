@@ -21,10 +21,8 @@ const TicTac: React.FC = () => {
       })
     )
 
-    // Update the board state
     setData(newData)
 
-    // Toggle the player for the next move
     setPrevMove(prevMove === 'X' ? 'O' : 'X')
   }
 
